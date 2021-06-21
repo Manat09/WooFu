@@ -1,0 +1,206 @@
+.main {
+	max-width: 100%;
+	width: 1080px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #dadcdf;
+	padding: 10px;
+	align-items: center;
+	background-color: #FFFEDD;
+}
+.main > h1{
+	font-family: Helvetica, sans-serif;
+	color: #0F2E1E;
+	font-size: 30px;
+	margin: 5px;
+	width: 945px;
+}
+.split-column {
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+
+.split-row {
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+.product_item {
+	width: 600px;
+	height: 250px;
+	margin: 10px;
+	border: 1px solid #0F2E1E;
+}
+.product_imgs {
+	width: 200px;
+	height: 200px;
+	padding: 1px;
+	margin: 23px;
+	position: relative;
+	border: 1px solid #dadcdf;
+}
+.product_info{
+	width: 325px;
+	height: 195px;
+}
+.product_info > label{
+	font-family: Helvetica, sans-serif;
+	font-size: 25px;
+	color: #0F2E1E;	
+}
+.product_info > div > label{
+	font-family: Helvetica, sans-serif;
+	font-size: 16px;
+	color: #0F2E1E;
+}
+.product_quantity{
+	text-align: center;
+	width: 50px;
+	height: 25px;
+	font-family: Helvetica, sans-serif;
+	font-size: 25px;
+	position: absolute;
+	left: 250px;
+	bottom: 25px;
+}
+#product_price{
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	position: absolute;
+	left: 250px;
+	bottom: 65px;
+}
+.product_total_price{
+	position: absolute;
+	right: 30px;
+	bottom: 25px;
+}
+.product_total_price > label{
+	font-family: Helvetica, sans-serif;
+	font-size: 30px; 
+}
+.product_item_delete{
+	width: 25px;
+	height: 25px;
+	margin: 5px 0px 0px 0px;
+	position: relative;
+	top: 0px;
+	left: 320px;
+	display: flex;
+	justify-content: center;
+	align-content: center;
+	border: none;
+	background-color: #FFFEDD;
+}
+.product_item_delete:hover{
+	border-bottom: 1px solid #000000;
+}
+.product_item_delete > img{
+	width: 20px;
+	height: 20px;
+}
+.delivery{
+	width: 350px;
+	height: 200px;
+	margin: 10px 10px 10px 20px;
+	border: 1px solid #0F2E1E;
+	position: sticky;
+	top: 10px;
+}
+.delivery > h1 {
+	font-family: Helvetica, sans-serif;
+	font-size: 20px;
+	color: #0F2E1E;
+	text-align: center;
+}
+.delivery > div > form > label {
+	margin: 12px 12px 12px 24px;
+	padding: 3px;
+	height: 25px;
+	font-family: Helvetica, sans-serif;
+	font-size: 18px;
+	color: #0F2E1E;
+}
+#delivery_address{
+	margin: 6px 24px 6px 24px;
+	width: 300px;
+	height: 25px;
+	font-family: Helvetica, sans-serif;
+	font-size: 19px;
+}
+#delivery_date{
+	margin: 12px 24px 12px 0px;
+	width: 140px;
+	height: 25px;
+	font-size: 15px;
+	text-align: center;
+}
+#pick_up{
+	margin: 12px 0px 12px 30px;
+	width: 20px;
+	height: 20px;
+}
+#pick_up + label {
+	margin-left: 0px;
+	font-size: 20px;
+	position: relative;
+}
+.payment{
+	width: 350px;
+	height: 125px;
+	margin: 10px 10px 10px 20px;
+	padding-top: 25px; 
+	border: 1px solid #0F2E1E;
+	position: sticky;
+	top: 220px;
+}
+.payment label{
+	font-family: Helvetica, sans-serif;
+	font-size: 30px;
+	margin-left: 30px; 
+}
+.payment_total{
+	position: absolute;
+	right: 25px;
+	top: 25px; 
+}
+.payment_total > label{
+	font-weight: 550;
+	margin: 0px;
+	overflow-x: hidden;
+}
+.payment_check_out{
+	width: 300px;
+	height: 50px;
+	font-size: 29px;
+	font-family: Helvetica, sans-serif;
+	position: absolute;
+	bottom: 25px;
+	left: 25px;
+	right: 25px;
+	color: #395927;
+	background-color: #80b95f;
+	border: 1px solid #456a2f;
+	transition: 1s;
+}
+.payment_check_out:hover{
+	color: #000000;
+	border: 1px solid #000000;
+	transition: 0.5s;
+}
+.check_out_icon{
+	width: 30px;
+	height: 30px;
+	opacity: 0.7;
+	transition: 1s;
+}
+.payment_check_out:hover > .check_out_icon{
+	opacity: 1;
+	transition: 0.5s;
+}

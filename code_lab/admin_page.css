@@ -1,0 +1,100 @@
+.main {
+	max-width: 100%;
+	width: 1080px;
+	margin: 10px auto;
+	display: flex;
+	flex-direction: column;
+	border: 1px solid #dadcdf;
+	padding: 10px;
+	align-items: center;
+	background-color: #FFFEDD;
+} 
+.split-row {
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	flex-direction: row;
+	position: relative;
+}
+
+.admin_panel {
+	width: 200px;
+	height: 600px;
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 10px;
+	border: 1px solid #dadcdf;
+}
+.admin_panel label{
+	margin: 10px;
+	text-align: center;
+}
+.admin_panel button{
+	margin: 10px;
+}
+
+.admin_table {
+	width: 600px;
+	height: 600px;
+	max-width: 100%;
+	max-height: 100%;
+	display: flex;
+	flex-direction: column;
+	position: relative;
+	margin: 10px;
+	border: 1px solid #dadcdf;
+}
+.admin_table button{
+	margin: 10px 0px 0px 20px;
+}
+.table {
+	height: 100%;
+	margin: 10px;
+	overflow-y: scroll;
+}
+.table::-webkit-scrollbar-track{
+	background-color: #dadcdf;
+}
+.table::-webkit-scrollbar{
+	width: 5px;
+	background-color: #000;
+}
+.table::-webkit-scrollbar-thumb
+{
+	background-color: #000;
+}
+table, th, td {
+	font-size: 14px;
+	font-family: Helvetica, sans-serif;
+  	border: 1px solid #000;
+}
+table {
+  	width: 100%;
+}
+table div{
+  	display: none;
+}
+td a {
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    text-decoration: none;
+    color: #000;
+	background-color: #dadcdf;
+}
+td a:active {
+	background-color: #fff;
+}
+#admin_form{
+	display: flex;
+	flex-direction: column;
+	position: relative;
+}
+#admin_form input{
+	width: auto;
+	margin: 20px 20px 0px 20px;
+}
